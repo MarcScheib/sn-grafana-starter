@@ -11,5 +11,5 @@ Simply execute the following steps to get everything up and running.
 
 1. Clone this Repository: `https://github.com/MarcScheib/sn-grafana-starter.git`
 2. Switch to the directory: `cd sn-grafana-starter`
-3. Copy the SN Datasource plugin folder into the `grafana-plugins` directory
+3. Run the install.sh script to get the SN Grafana Plugin: `./install.sh --username=<your_username> --password=<your_password>`
 4. Start the container: `docker-compose up`
